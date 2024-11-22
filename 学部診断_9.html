@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>県大学部診断サイト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellowgreen;
+            flex-direction: column;
+        }
+        h1 {
+            color:white;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 50px;
+        }
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 30px;
+            max-width: 700px;
+            margin: auto;
+            font-size: 20px;
+            margin-top: 50px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+ 
+        .option-button {
+            width: 100%;
+            padding: 20px;
+            background-color: hotpink;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .option-button:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>県大学部適正診断</h1>
+    <form>
+        <div>
+            <label>質問 9: 好きな飲み物は？</label>
+            <button type="button" class="option-button" onclick="location.href='学部診断_11.html'">牛乳</button>
+            <button type="button" class="option-button" onclick="location.href='学部診断_12.html'">紅茶</button>
+            <button type="button" class="option-button" onclick="location.href='学部診断_13.html'">コーヒー</button>
+        </div>
+    </form>
+</body>
+</html>

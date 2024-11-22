@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>県大学部診断結果</title>
+    <style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+    background: white;
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    width: 100%;
+}
+h1 {
+    font-family: 'Arial', sans-serif; /* フォントをArialに戻す */
+    font-size: 40px; /* タイトルのフォントサイズ */
+    color: deeppink; /* 濃い緑色 */
+    margin-bottom: 10px; /* 下部の余白 */
+    line-height: 1.1; /* 行間を狭く */
+}
+p {
+    font-size: 25px; /* 段落のフォントサイズ */
+    color: #444; /* 段落の文字色 */
+    margin-bottom: 5px; /* 段落間の余白を狭く */
+    line-height: 1.1; /* 行間を狭く */
+}
+q {
+    font-size: 70px; /* 段落のフォントサイズ */
+    color: #444; /* 段落の文字色 */
+    margin-bottom: 5px; /* 段落間の余白を狭く */
+    line-height: 2.0; /* 行間を狭く */
+}
+.start-button {
+    background-color: #ff69b4; /* ボタンの背景色 */
+    color: white; /* ボタンの文字色 */
+    padding: 10px 20px; /* ボタンの内側余白 */
+    border: none; /* ボタンの境界線なし */
+    border-radius: 25px; /* ボタンの角を丸く */
+    cursor: pointer; /* カーソルをポインターに */
+    font-size: 20px; /* ボタンのフォントサイズ */
+    transition: background-color 0.3s, transform 0.3s; /* ホバー効果のトランジション */
+}
+.start-button:hover {
+    background-color: #ff1493; /* ホバー時のボタンの背景色 */
+    transform: scale(1.05); /* ホバー時にボタンを少し大きくする */
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>診断結果</h1>
+        <p>あなたに合っているのは</p>
+        <q>外国語学部！！！</q>
+        <button class="start-button" onclick="onclick=location.href='学部診断_1.html'">もう一度診断をする</button>
+    </div>
+    <script>
+        function startDiagnosis() {
+            window.location.href = "diagnosis.html"; // 遷移先のページを指定
+        }
+    </script>
+</body>
+</html>
